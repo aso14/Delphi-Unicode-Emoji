@@ -8,20 +8,13 @@ This unit provides constants for various Unicode emojis in Delphi. Each emoji is
 2. Access the emojis using the `TEmojiConstants` record.
 
 ```delphi
-unit UnicodeEmoji;
+uses
+  UnicodeEmoji;
 
-interface
-
-type
-  TEmojiConstants = record
-    // ... (List of emojis)
-  end;
-
-implementation
-
-// ... (Emoji constants with corresponding Unicode emojis)
-
-end.
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  ShowMessage('Hello ' + TEmojiConstants.WavingHand);
+end;
 ```
 
 ## Emoji List
