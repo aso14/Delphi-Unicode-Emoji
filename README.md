@@ -186,6 +186,7 @@ end;
 | Rose                             | Rose                         | 🌹            |
 | Wilted Flower                    | WiltedFlower                 | 🥀            |
 | Hibiscus                         | Hibiscus                     | 🌺            |
+| CircleGreen                      | CircleGreen                  | 🟢            |
                           
 ## Note
 
