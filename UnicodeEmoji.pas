@@ -568,6 +568,7 @@ type
       PersonPlayingHandball: string = #$1F93E;
       PersonJuggling: string = #$1F939;
       PersonInSteamyRoom: string = #$1F9D6;
+      CircleGreen: string = #$1F7E2;
   end;
 
 implementation
